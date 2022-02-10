@@ -2,7 +2,7 @@
 
 let input = prompt("Enter a palindrome");
 input = input.toLowerCase();
-let length = Math.floor(input.length); 
+const length = Math.floor(input.length); 
 
 let isPalindrome = true;
 for (let i = 0; i < length/2; i++) {

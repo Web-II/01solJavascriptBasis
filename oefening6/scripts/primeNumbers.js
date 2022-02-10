@@ -1,6 +1,6 @@
 'use strict';
 
-const input = prompt("Enter a number");
+const input = Number(prompt("Enter a number"));
 
 for (let number = 2; number < input; number++) {
     let isPrime = true;
