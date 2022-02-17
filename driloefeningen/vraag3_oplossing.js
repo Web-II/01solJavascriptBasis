@@ -18,13 +18,16 @@
  */
 
 /* Oplossing */
-'use strict';
+"use strict";
 const numberOfLines = parseInt(
-  prompt('Hoeveel regels met hartjes moeten er afgeprint worden?')
+  prompt("Hoeveel regels met hartjes moeten er afgeprint worden?")
 );
-console.log('START PROGRAM');
+console.log("START PROGRAM");
 for (let i = 0; i < numberOfLines; i++) {
-  // Een hartje ♥ kan je ook als Unicode code point (UTF-16 code) opgeven.
-  console.log('\u2665'.repeat(i + 1)); //of gebruik nog een for-statement
+  // Een hartje ♥ kan je ook als Unicode code point (UTF-16 code) opgeven. \u2665
+  // let heart = "";
+  // for (let j = 0; j <= i; j++) heart += "♥";
+  // console.log(heart);
+  console.log("♥".repeat(i + 1));
 }
-console.log('END PROGRAM');
+console.log("END PROGRAM");

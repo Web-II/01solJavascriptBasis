@@ -2,8 +2,8 @@
  * Vraag 5
  * Waarom wordt in onderstaand programma  console.log() niet uitgevoerd?
  */
-'use strict';
-const a = '5';
+"use strict";
+const a = "5";
 const b = 5;
 /* Oplossing */
 // != en == voeren een 'type conversion' uit vooraleer te vergelijken.
