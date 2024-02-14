@@ -47,7 +47,8 @@ Voorbeeld: een zin: "de woorden moeten in omgekeerde volgorde geplaatst worden".
 In de console komt  
 worden  
 geplaatst  
-volgorde  
+volgorde
+omgekeerde
 in  
 moeten  
 woorden  
